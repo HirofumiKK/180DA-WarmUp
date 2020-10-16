@@ -1,4 +1,5 @@
-import paho.mqtt.client as mqtt import numpy as np
+import paho.mqtt.client as mqtt 
+import numpy as np
 # 0. define callbacks - functions that run when events happen.
 # The callback for when the client receives a CONNACK response from the server. def on_connect(client, userdata, flags, rc):
   print("Connection returned result: "+str(rc))
